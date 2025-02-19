@@ -54,7 +54,7 @@ test_set = DataLoader(TensorDataset(
     torch.tensor(test_data["performance"].values, dtype=torch.float32)
 ), batch_size=batch_size, shuffle=False)
 
-# 模型训练
+
 if emb_name == "open":
     query_dim = 1536
     llm_dim = 1536

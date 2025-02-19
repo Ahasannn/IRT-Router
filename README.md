@@ -17,7 +17,7 @@ python train_mirt.py
 Similarly, to train the **N-IRT router**, run:
 
 ```bash
-python train_mirt.py
+python train_nirt.py
 ```
 
 We also provide a trained model checkpoint:

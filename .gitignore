@@ -1,0 +1,25 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.env
+.venv
+
+# Editor directories
+.vscode/
+.idea/
+
+# Checkpoints and logs
+*.log
+*.snapshot
+
+# Model/data artifacts
+*.pkl
+*.pt
+*.bin
